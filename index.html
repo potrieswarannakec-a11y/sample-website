@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Tell Brightpath what you want to learn. Find the right classes and get support from real people.">
+    <meta name="theme-color" content="#f8f7f2">
+    <title>Get in touch | Brightpath</title>
+    <link rel="stylesheet" href="potri.css">
+</head>
+<body>
+    <header class="site-header">
+        <a class="brand" href="#home" aria-label="Brightpath home">
+            <span class="brand-mark" aria-hidden="true">b.</span>
+            <span>brightpath</span>
+        </a>
+        <nav class="site-nav" aria-label="Main navigation">
+            <a href="#how-it-works">How it works</a>
+            <a href="#courses">Our courses</a>
+            <a class="nav-cta" href="#contact">Let's talk <span aria-hidden="true">&rarr;</span></a>
+        </nav>
+    </header>
+
+    <main id="home">
+        <section class="contact-layout" aria-labelledby="page-title">
+            <div class="intro-column">
+                <p class="eyebrow"><span class="eyebrow-dot" aria-hidden="true"></span> YOUR NEXT CHAPTER STARTS HERE</p>
+                <h1 id="page-title">A little help can change <span>everything.</span></h1>
+                <p class="intro-copy">Big goals start with a conversation. Tell us what you're curious about and we'll help you find a learning path that feels right for you.</p>
+
+                <div class="note-card" id="how-it-works">
+                    <div class="note-icon" aria-hidden="true">
+                        <svg viewBox="0 0 48 48" fill="none">
+                            <path d="M11 14.5A4.5 4.5 0 0 1 15.5 10H38v25H15.5a4.5 4.5 0 0 0-4.5 4.5v-25Z" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round"/>
+                            <path d="M11 16h22M17 19v11" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+                            <path d="m18 26 4 4 7-8" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <div>
+                        <h2>Learning, made personal.</h2>
+                        <p>Real people. A plan that fits. Progress you can feel.</p>
+                    </div>
+                </div>
+
+                <div class="course-preview" id="courses">
+                    <div class="course-heading">
+                        <span>ROOM TO GROW</span>
+                        <span class="course-spark" aria-hidden="true">✳</span>
+                    </div>
+                    <div class="course-tags" aria-label="Popular subjects">
+                        <span>English</span>
+                        <span>Math</span>
+                        <span>Science</span>
+                        <span>History</span>
+                    </div>
+                    <p>Not sure where to start? That's what we're here for.</p>
+                </div>
+
+                <div class="contact-footnote">
+                    <span class="footnote-icon" aria-hidden="true">
+                        <svg viewBox="0 0 24 24" fill="none">
+                            <path d="M4 6.5A2.5 2.5 0 0 1 6.5 4h11A2.5 2.5 0 0 1 20 6.5v11a2.5 2.5 0 0 1-2.5 2.5h-11A2.5 2.5 0 0 1 4 17.5v-11Z" stroke="currentColor" stroke-width="1.8"/>
+                            <path d="m5 7 7 5 7-5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </span>
+                    <span>Have a quick question? Add it to your message below.</span>
+                </div>
+            </div>
+
+            <section class="form-card" id="contact" aria-labelledby="form-title">
+                <div class="form-heading">
+                    <div>
+                        <p class="form-step">LET'S MAKE A PLAN</p>
+                        <h2 id="form-title">Tell us a little about you</h2>
+                        <p class="form-intro">We'll use this to point you in the right direction.</p>
+                    </div>
+                    <span class="form-flower" aria-hidden="true">✳</span>
+                </div>
+
+                <form id="contactForm">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="name">Your name <span aria-hidden="true">*</span></label>
+                            <input type="text" id="name" name="name" placeholder="e.g. Alex Morgan" autocomplete="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email address <span aria-hidden="true">*</span></label>
+                            <input type="email" id="email" name="email" placeholder="you@example.com" autocomplete="email" required>
+                        </div>
+                    </div>
+
+                    <fieldset class="form-group">
+                        <legend>What would you like to learn?</legend>
+                        <div class="course-options">
+                            <label class="choice"><input type="checkbox" name="courses" value="English"><span>English</span></label>
+                            <label class="choice"><input type="checkbox" name="courses" value="Math"><span>Math</span></label>
+                            <label class="choice"><input type="checkbox" name="courses" value="Science"><span>Science</span></label>
+                            <label class="choice"><input type="checkbox" name="courses" value="History"><span>History</span></label>
+                        </div>
+                    </fieldset>
+
+                    <div class="form-row form-row-lower">
+                        <fieldset class="form-group gender-group">
+                            <legend>Gender <span aria-hidden="true">*</span></legend>
+                            <div class="radio-options">
+                                <label class="radio-choice"><input type="radio" name="gender" value="Male" required><span>Male</span></label>
+                                <label class="radio-choice"><input type="radio" name="gender" value="Female"><span>Female</span></label>
+                                <label class="radio-choice"><input type="radio" name="gender" value="Prefer not to say"><span>Prefer not to say</span></label>
+                            </div>
+                        </fieldset>
+                        <div class="form-group country-group">
+                            <label for="country">Where are you from? <span aria-hidden="true">*</span></label>
+                            <select id="country" name="country" autocomplete="country-name" required>
+                                <option value="">Select a country</option>
+                                <option value="India">India</option>
+                                <option value="United States">United States</option>
+                                <option value="United Kingdom">United Kingdom</option>
+                                <option value="Canada">Canada</option>
+                                <option value="Australia">Australia</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="form-group message-group">
+                        <label for="message">Anything else you'd like us to know? <span aria-hidden="true">*</span></label>
+                        <textarea id="message" name="message" placeholder="Tell us what you're hoping to achieve..." required></textarea>
+                    </div>
+
+                    <button type="submit">Send my enquiry <span aria-hidden="true">&rarr;</span></button>
+                    <p class="privacy-note">This demo does not transmit or save your personal information.</p>
+                    <p class="form-status" id="formStatus" role="status" aria-live="polite"></p>
+                </form>
+            </section>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <span>&copy; <span id="currentYear"></span> Brightpath Learning</span>
+        <span>Small steps. Brighter futures.</span>
+    </footer>
+
+    <script>
+        const contactForm = document.getElementById("contactForm");
+        const formStatus = document.getElementById("formStatus");
+
+        contactForm.addEventListener("submit", (event) => {
+            event.preventDefault();
+
+            const name = new FormData(contactForm).get("name").toString().trim();
+            formStatus.textContent = `Thanks, ${name}! Your enquiry is ready. This demo doesn't send or store your details yet.`;
+        });
+
+        document.getElementById("currentYear").textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
